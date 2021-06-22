@@ -131,10 +131,10 @@ function addRole(guild, emojiName, user) {
             role = guild.roles.cache.get('856375305921101836')
             break;
         case '2️⃣':
-            role = guild.roles.cache.get('856375356494708766')
+            role = guild.roles.cache.get('856375381303885924')
             break;
         case '3️⃣':
-            role = guild.roles.cache.get('856375381303885924')
+            role = guild.roles.cache.get('856375356494708766')
             break;
         default:
             role = null
@@ -160,10 +160,10 @@ function removeRole(guild, emojiName, user) {
           role = guild.roles.cache.get('856375305921101836')
           break;
       case '2️⃣':
-          role = guild.roles.cache.get('856375356494708766')
+          role = guild.roles.cache.get('856375381303885924')
           break;
       case '3️⃣':
-          role = guild.roles.cache.get('856375381303885924')
+          role = guild.roles.cache.get('856375356494708766')
           break;
       default:
           role = null
