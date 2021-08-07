@@ -68,7 +68,7 @@ client.on('message', message => {
                 .setTitle("New Chapter")
                 .setDescription("There's a new chapter of Appraisal!")
                 .addField("Read Chapter:", chapterLink)
-                .addField("Next Chapter Release", "~2 weeks")
+                .addField("Next Chapter Release", "~1-2 weeks")
                 .addField("Comment", (comment ? comment : "No upload comment because nothing cool happened."))
                 .setTimestamp(new Date())
             client.channels.cache.get("856374920698265661").send(embed).then( () => {
